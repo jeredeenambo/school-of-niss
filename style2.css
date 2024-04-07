@@ -1,0 +1,93 @@
+<style>
+        body {
+            background-image: url('./IMAGES/NYS7 (19).jpg'); /* Replace with your actual background image */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        header {
+            background-color: yellow;
+            text-align: center;
+            padding: 5px;
+        }
+
+        nav {
+            background-color:;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: marquee 20s linear infinite;
+            
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        footer {
+            background-color: black;
+            color: yellow;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+  .logo {
+  display: inline-block;
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-color: none; /* Circle background color */
+  
+  margin-right: 10px; /* Adjust spacing from other elements if needed */
+}
+  social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+  margin: 0 10px;
+}
+
+#facebook-link img,
+#twitter-link img,
+#instagram-link img {
+  width: 50px; /* adjust size as needed */
+  height: auto;
+}
+a:hover {
+  background: blueviolet;
+  color: white;
